@@ -1,0 +1,13 @@
+------------ Question 1 --------------------------------------------
+SELECT countries.id, countries.name, COUNT(engineers.country_id)
+FROM countries
+INNER JOIN engineers
+ON countries.id = engineers.country_id
+GROUP BY countries.id
+ORDER BY (COUNT(engineers.country_id)) DESC 
+LIMIT(1);
+
+Answer: "French Southern and Antarctic Lands"
+
+--------- Question 2 ----------------------------------------------------
+
