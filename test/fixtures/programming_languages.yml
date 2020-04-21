@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  category: MyText
+  date_of_birth: 1
+  inventor: MyText
+
+two:
+  name: MyText
+  category: MyText
+  date_of_birth: 1
+  inventor: MyText
